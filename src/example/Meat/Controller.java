@@ -42,7 +42,7 @@ public class Controller {
     public Service freeService (){
         Collections.sort(services,new ServiceComparator());
         return services.get(0);
-    }
+    }//
 
     public class StopTask extends TimerTask {
         int ID;
